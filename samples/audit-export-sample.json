@@ -1,0 +1,1893 @@
+{
+  "breadcrumbs": [
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "bebec69a7febdaebd830d4e90dad1fad896951b94b9a69c1e6e8c86f13644df6915de1ef349813958dc79ac2350f7e973783594e1fcd7b1cd17d1e43e9707601",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference": {
+        "inference_at": 1777562263.7106009,
+        "input_scene_hash": "1af5e7b8448668777c4b49a7fdf31c1f6bb6015436407c2b4474b3e997090316",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 0,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "5a608285c47802f04b9de8410bacd20206d0769f5287d0b0a2a0af01038b5940",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "a216f57a354dff99930bbff8b081d27d796feca99b18c2b631f9793cbd42bda98c6fd082db052cecfba51e6dabff9a91c168992f944a1f54bc465be0e570c40f",
+      "invocation": {
+        "invocation_at": 1777562263.7107244,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "L-pillar-inner-left",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "d6ea286407a3200d9fda98e89ebb218c7ababc7e6c92e8c990a7752d7ac8d922",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "3426de03a83f9cc89832c36f5e318f3e05100218e5f036985026d0a4f8371c9a8968c50a1d230a4c05c81f603537a910c0cf1df2eaa129b2a28e363f26e01504",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "L-pillar-inner-left",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "d1cdaeb240650f8a67e066e593def4a89927831f0390e5c1979059c7980a6703",
+      "sensor_digest": "8af43943ff23e278d28bdf6d8dec1a25b2c687b953ce198253da3750a64bb476",
+      "sensor_readings": {
+        "current_A": 218.10004302089067,
+        "force_N": 13.472942428328025,
+        "ir_peak_C": 1493,
+        "voltage_V": 22.910011727347648
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.710837,
+      "tpm_quote": "bytes:d4d72630f9cbac8e935f9a12640ff414",
+      "world_model_infer": []
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "ac0f829661fbea4f733e9f382bdc934dcd2efec4ce66dcfd5a6bbbdbe3530ca1433f4885b3b9d60207afc068d2e7d19771f1c5488323ddf610dce4875a44b303",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference": {
+        "inference_at": 1777562263.7106009,
+        "input_scene_hash": "1af5e7b8448668777c4b49a7fdf31c1f6bb6015436407c2b4474b3e997090316",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 0,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "5a608285c47802f04b9de8410bacd20206d0769f5287d0b0a2a0af01038b5940",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "a216f57a354dff99930bbff8b081d27d796feca99b18c2b631f9793cbd42bda98c6fd082db052cecfba51e6dabff9a91c168992f944a1f54bc465be0e570c40f",
+      "invocation": {
+        "invocation_at": 1777562263.7178366,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "L-pillar-inner-right",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "d6ea286407a3200d9fda98e89ebb218c7ababc7e6c92e8c990a7752d7ac8d922",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "fb34348d6c09e7ce022e30ea0e05620aa7a2e59702e31d8a1b62395ef0b9cd19157e5478d366b2871e4f7dc23b2d47eee1834f94be965c9e485eb6d7ef96700e",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "L-pillar-inner-right",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "af08f4a896f9b1eeb781ce8ad4c3be04536415f4f1ac1611a566e3d2903f5bfb",
+      "sensor_digest": "764331dd902bb6b27f7d1abe10b4ca4f32c717afa28407e8d09ed397b4dc60cd",
+      "sensor_readings": {
+        "current_A": 221.56871827081937,
+        "force_N": 12.059594438876141,
+        "ir_peak_C": 1505,
+        "voltage_V": 22.83477553305177
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.7179656,
+      "tpm_quote": "bytes:b29f42856f8cf935440edba7c7f06083",
+      "world_model_infer": []
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "4dcea8d8746258518ae5dd1ce91d2a9e4115f2f85ece5c714f69d3f943d559193f88b2e4a08f1c2fbbab64ec02ce8bdd77770160edea0b6229ac5f939a63b80e",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44adff",
+      "inference": {
+        "inference_at": 1777562263.7106009,
+        "input_scene_hash": "1af5e7b8448668777c4b49a7fdf31c1f6bb6015436407c2b4474b3e997090316",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 0,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "5a608285c47802f04b9de8410bacd20206d0769f5287d0b0a2a0af01038b5940",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "a216f57a354dff99930bbff8b081d27d796feca99b18c2b631f9793cbd42bda98c6fd082db052cecfba51e6dabff9a91c168992f944a1f54bc465be0e570c40f",
+      "invocation": {
+        "invocation_at": 1777562263.725656,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "B-pillar-cross-front",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "d6ea286407a3200d9fda98e89ebb218c7ababc7e6c92e8c990a7752d7ac8d922",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "68e2da2d71b444fec7b063bcf5db9d476d632884922bdcae16cf752c6e32bb05cbcef8855813a76c62ccedb535e086c46277bb610d0457e24f7072b3735dd709",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "B-pillar-cross-front",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "444cd1f4d1e8b41c101e107d40f91a8d7b6c3dd02aa989c0d0b6b855b74e285c",
+      "sensor_digest": "4057cda5e05bbf1da534c6e7d196f3039fe813a906b319e0fe3778cccfb8be0a",
+      "sensor_readings": {
+        "current_A": 220.02142115241344,
+        "force_N": 13.299768875559046,
+        "ir_peak_C": 1491,
+        "voltage_V": 22.810614387873546
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.7258074,
+      "tpm_quote": "bytes:2d29f74a8101b775572f18363a74b8ee",
+      "world_model_infer": [
+        {
+          "attestation": "signed-by-runtime",
+          "model": "cosmos-reason-2",
+          "output_hash": "blake3:6ac99ef8d9456de2e513519c95452793600ca784bbe359f1c966c37d98dbf7b0",
+          "output_uri": "r2://obj/cosmos-out/0-B-pillar-cross-front.json",
+          "prompt_hash": "c0c9d2d24502e677cef8b127d9ffd683fc1513782a6acf96efa6f66690a6c9f0",
+          "provider": "nvidia",
+          "version": "2.0.1"
+        }
+      ]
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "6a19495ec45bc65502e3e5ef9003f9fb241b517d918e94fa0c339f16cdc6ac1937044dc3b9b619b9e1b0e6e4a75fb19b7bb8441974e3f23daa4a2aff73de2c02",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44adff",
+      "inference": {
+        "inference_at": 1777562263.7106009,
+        "input_scene_hash": "1af5e7b8448668777c4b49a7fdf31c1f6bb6015436407c2b4474b3e997090316",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 0,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "5a608285c47802f04b9de8410bacd20206d0769f5287d0b0a2a0af01038b5940",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "a216f57a354dff99930bbff8b081d27d796feca99b18c2b631f9793cbd42bda98c6fd082db052cecfba51e6dabff9a91c168992f944a1f54bc465be0e570c40f",
+      "invocation": {
+        "invocation_at": 1777562263.7337701,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "B-pillar-cross-rear",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "d6ea286407a3200d9fda98e89ebb218c7ababc7e6c92e8c990a7752d7ac8d922",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "5476e7dcebcff4a2a8c4a50f91175acc27074056cd5d3c5bb901ebc800e92e4bd94daf5cc81a5dfb118b37473bc7ee2264066fb76e5c7d4ecca9be1dde9f5b0a",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "B-pillar-cross-rear",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "39e5df6f9b9cee07e8c89114b4e106ab19f51f730857747d425e2fef124d5060",
+      "sensor_digest": "eb1c8facb5783134c87f6f8df5ea336ba30d2e0327f7426a1c7a2867f7ea1423",
+      "sensor_readings": {
+        "current_A": 218.8817624881628,
+        "force_N": 12.012997519356123,
+        "ir_peak_C": 1528,
+        "voltage_V": 23.035706273550364
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.7338998,
+      "tpm_quote": "bytes:498cc234002fe26eae3d0ad36ace7dba",
+      "world_model_infer": []
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "76eb04a17c24a795898a2b1abbe4590a35d2847278fcc3d5c9657f7bbe1ca3a1bc440dd6ccac9115ec33edaad93e98299c21bb88585e13f02d61901e77e22708",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44adff",
+      "inference": {
+        "inference_at": 1777562263.7106009,
+        "input_scene_hash": "1af5e7b8448668777c4b49a7fdf31c1f6bb6015436407c2b4474b3e997090316",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 0,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "5a608285c47802f04b9de8410bacd20206d0769f5287d0b0a2a0af01038b5940",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "a216f57a354dff99930bbff8b081d27d796feca99b18c2b631f9793cbd42bda98c6fd082db052cecfba51e6dabff9a91c168992f944a1f54bc465be0e570c40f",
+      "invocation": {
+        "invocation_at": 1777562263.741359,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "rear-quarter-upper",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "d6ea286407a3200d9fda98e89ebb218c7ababc7e6c92e8c990a7752d7ac8d922",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "2c85ebb4e27efa8ae2db04869e29b0e6e9d76f6830ef596357af9472fa9433f6baaa3fa2e3c2e2fcadb759ce06e0dac4f3e32b64492f1d608fb530b91bff1807",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "rear-quarter-upper",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "6a36910ae585cb8e2508e433c36e0feb3b44989f071cd0f66c909e09d3ec2e10",
+      "sensor_digest": "66c807b09268f52b2d9108eaf5a7f952142afb603deea8ece55b4231169d2846",
+      "sensor_readings": {
+        "current_A": 220.7925575799529,
+        "force_N": 13.914426144413563,
+        "ir_peak_C": 1489,
+        "voltage_V": 22.936100206607197
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.7414758,
+      "tpm_quote": "bytes:6fb7648680fb60c15c3e3cf30f44d81a",
+      "world_model_infer": []
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "d07475e700f92fdba895c688b01037b9b49d44e5343450fc47c25e779aaa09a63b222ecbe364a7cc7ebce79133725befacc6090ff837cd22b61a64217d251e02",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference": {
+        "inference_at": 1777562263.7480042,
+        "input_scene_hash": "a82c600319f3d540545d45f093c87c5004b89b514c402c657016fe085a30416d",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 1,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "19a3b99f23c849b20cca31931f3be84ef5d12e07a227ce29f4330b220a9d6c17",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "94c2f543c94a27869eafc159931605ea1af0d6f879e81eb8947b5a5fc714fc3c6ad21eb43ac22b4f863d3eef8a844114388437eea2e976be0f579f95ee17210f",
+      "invocation": {
+        "invocation_at": 1777562263.7481313,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "L-pillar-inner-left",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "35d3567a6f77c6a630458e24e6f5c7995df9f2b1dc230ebe5b6f49ee684129e9",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "40edaca5b617255bbd19801882c5a35c26e210b7b3f14177676495f1d352719b6ba2b3fd79797bdee25fade9019989b263bb21d1c4979a059280a72e7ba34b0e",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "L-pillar-inner-left",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "a38cd3af959253c6344bfc61303c3ef37f8d4f8d4aa8762c0f1c6092f6ca884e",
+      "sensor_digest": "177f8dc66fe4dd3683b13f2b697e992ab10f1c3f46cd7be1a7c95e892d61e742",
+      "sensor_readings": {
+        "current_A": 218.3709833735206,
+        "force_N": 13.207452062733783,
+        "ir_peak_C": 1530,
+        "voltage_V": 22.838686550733385
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.7482283,
+      "tpm_quote": "bytes:d4d72630f9cbac8e935f9a12640ff414",
+      "world_model_infer": []
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "61b3040413c254864292774dfdf6d8f9e0d8462edf5ef353f5d6bcc4e43cd464d55a2bf79dd088744d68f8b86065cbbf4a3cf950d303a49ae8ae396b61855104",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference": {
+        "inference_at": 1777562263.7480042,
+        "input_scene_hash": "a82c600319f3d540545d45f093c87c5004b89b514c402c657016fe085a30416d",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 1,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "19a3b99f23c849b20cca31931f3be84ef5d12e07a227ce29f4330b220a9d6c17",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "94c2f543c94a27869eafc159931605ea1af0d6f879e81eb8947b5a5fc714fc3c6ad21eb43ac22b4f863d3eef8a844114388437eea2e976be0f579f95ee17210f",
+      "invocation": {
+        "invocation_at": 1777562263.7573655,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "L-pillar-inner-right",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "35d3567a6f77c6a630458e24e6f5c7995df9f2b1dc230ebe5b6f49ee684129e9",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "92e3106b755ad144f22e237cd380e6b0ef0151c7e9a01d69e520c419652deb87d9549008a166ec31cb9a07982e80e8d4b202305928b7ca8c37ae21de3171ec00",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "L-pillar-inner-right",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "ff4bff41001d0fba895ac81ae11ef0ff5e3358b819a422aab06db20c9cd81452",
+      "sensor_digest": "ad3d7ad4d2500d9366b9d4101685c4845528d3376b86befa53112bc48ee3d907",
+      "sensor_readings": {
+        "current_A": 220.91892714677527,
+        "force_N": 12.757068754416707,
+        "ir_peak_C": 1538,
+        "voltage_V": 23.014491236581883
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.757478,
+      "tpm_quote": "bytes:b29f42856f8cf935440edba7c7f06083",
+      "world_model_infer": []
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "2c8a629f7c605729f9cd2d185ab462fcfa65430d6792886c3f59204edff53088ba4d11ef49b45c17099c539e9751daba97888875c4e6b6cbeb5ed7cee9b6a703",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference": {
+        "inference_at": 1777562263.7480042,
+        "input_scene_hash": "a82c600319f3d540545d45f093c87c5004b89b514c402c657016fe085a30416d",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 1,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "19a3b99f23c849b20cca31931f3be84ef5d12e07a227ce29f4330b220a9d6c17",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "94c2f543c94a27869eafc159931605ea1af0d6f879e81eb8947b5a5fc714fc3c6ad21eb43ac22b4f863d3eef8a844114388437eea2e976be0f579f95ee17210f",
+      "invocation": {
+        "invocation_at": 1777562263.7662492,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "B-pillar-cross-front",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "35d3567a6f77c6a630458e24e6f5c7995df9f2b1dc230ebe5b6f49ee684129e9",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "58b6eb6490ef4a07e2a0664c168e153872e93a8728df3008687d967664c4bdb4b221c0079b401a5a66b841aabf6b0ea4c4e14dfe9485290dec3f2291ec6b030d",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "B-pillar-cross-front",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "7b48137b0b3560e372128d8df52bba40832640ae1346323fd2b6f2f67e7d05e2",
+      "sensor_digest": "afb92c92f84eeee08de7c41b9a9e6d39889983b549df29b7b069eb633e99fcaf",
+      "sensor_readings": {
+        "current_A": 221.317618657012,
+        "force_N": 13.154704290513525,
+        "ir_peak_C": 1531,
+        "voltage_V": 23.0474079009457
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.7663672,
+      "tpm_quote": "bytes:2d29f74a8101b775572f18363a74b8ee",
+      "world_model_infer": []
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "73e1f75e18b46f9e6e1ef977c850d625ede175098746e047a469cf4a4a4991ba016c629a77194716f1ff06693dda9d68b7f16210a99e0b362b33ee0ab0b1d107",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44adff",
+      "inference": {
+        "inference_at": 1777562263.7480042,
+        "input_scene_hash": "a82c600319f3d540545d45f093c87c5004b89b514c402c657016fe085a30416d",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 1,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "19a3b99f23c849b20cca31931f3be84ef5d12e07a227ce29f4330b220a9d6c17",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "94c2f543c94a27869eafc159931605ea1af0d6f879e81eb8947b5a5fc714fc3c6ad21eb43ac22b4f863d3eef8a844114388437eea2e976be0f579f95ee17210f",
+      "invocation": {
+        "invocation_at": 1777562263.7747402,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "B-pillar-cross-rear",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "35d3567a6f77c6a630458e24e6f5c7995df9f2b1dc230ebe5b6f49ee684129e9",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "336a540108cecf23422f7b189712a702d6f5b91b98d7cb550b02178e706aa0581326b8fc665169c113b52b2f98bccee0541813c01c180165308b5b1d69919c09",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "B-pillar-cross-rear",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "fd2a085e71d10e4966b6faea05bd26f593796d7bfd81077ab16e51b750909808",
+      "sensor_digest": "16bdf73420195426ac1ae07c2d4bebb7da165c5999dbadd59615d454b0103bc0",
+      "sensor_readings": {
+        "current_A": 218.18329753462265,
+        "force_N": 12.159583953847255,
+        "ir_peak_C": 1497,
+        "voltage_V": 22.89115931026062
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.7748702,
+      "tpm_quote": "bytes:498cc234002fe26eae3d0ad36ace7dba",
+      "world_model_infer": []
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "3e0fb8303a3b293a5236bad93390c7de5bc4981f9d44215c0b4928597eda2160db8660e9236f0cb4a7e1cd1b87a8f100a9f310d40b3495e8f4f468fd8445fa08",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44adff",
+      "inference": {
+        "inference_at": 1777562263.7480042,
+        "input_scene_hash": "a82c600319f3d540545d45f093c87c5004b89b514c402c657016fe085a30416d",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 1,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "19a3b99f23c849b20cca31931f3be84ef5d12e07a227ce29f4330b220a9d6c17",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "94c2f543c94a27869eafc159931605ea1af0d6f879e81eb8947b5a5fc714fc3c6ad21eb43ac22b4f863d3eef8a844114388437eea2e976be0f579f95ee17210f",
+      "invocation": {
+        "invocation_at": 1777562263.782652,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "rear-quarter-upper",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "35d3567a6f77c6a630458e24e6f5c7995df9f2b1dc230ebe5b6f49ee684129e9",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "e5dbd54da067dcbe166356eb7f7f7ecb7c09480c24cbf531eaa4d10000d59e93f7922a9a6d622a994b943397e6a62da9b28058cd11d55b1574dfe97d94438b09",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "rear-quarter-upper",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "6b9ebef1fb7d495198ad03a1b59fc662ece8a0ea611cb36c3cb40af583d76279",
+      "sensor_digest": "81cb2cb35d14359adf99cda32452f8a3660e13484f57269797c9251f0b1691f8",
+      "sensor_readings": {
+        "current_A": 218.4040057176389,
+        "force_N": 12.729664357940168,
+        "ir_peak_C": 1518,
+        "voltage_V": 22.911189441244037
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.7827842,
+      "tpm_quote": "bytes:6fb7648680fb60c15c3e3cf30f44d81a",
+      "world_model_infer": [
+        {
+          "attestation": "signed-by-runtime",
+          "model": "cosmos-reason-2",
+          "output_hash": "blake3:564c0b5749c20f16aa699edc485f7f367f9f0168b70a649ee665201d0a5d202c",
+          "output_uri": "r2://obj/cosmos-out/1-rear-quarter-upper.json",
+          "prompt_hash": "6b58899cd25d8cf972a9ac187d045c6c371cf92559d553a9206a1caeddadea02",
+          "provider": "nvidia",
+          "version": "2.0.1"
+        }
+      ]
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "c3080f9ab308560d4e63f244f3721b299686858480a99af897f387597aec80cb0a3cbbad0e815eaba5ccf4cb89f9bf5866a9d3b12fdcd24c3a6e4bf4ddde6704",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference": {
+        "inference_at": 1777562263.789749,
+        "input_scene_hash": "0fb58612c50960cd2e9dbc07e407ae88544a858402cb124a273069e1ebfedf60",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 2,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "566cdd6735802c88bcc643620f165656365bcf1323f78b1b1068642473f70fcf",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "17dff4c7133c06d6c893602989355d5b1c3f68683bac07f72f5355004d8fcacb565e0c69b696b50ba32af0ecb91bc8532ed2b94fde9903e461c85b63ff960008",
+      "invocation": {
+        "invocation_at": 1777562263.789865,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "L-pillar-inner-left",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "eb9a7b11691f9975939c87f9b7204ef5d001b0a72a41eb70ddf58e2ed50ddcbd",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "84f84a7a62dd114dc2df36841bd14de750948df0cfe899581ccff1de8e3a28e3ed71e98f78c8ef0303d7c352936e378612f13dcb8630c3f5d971a3bdf184e704",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "L-pillar-inner-left",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "a51ebb5c6a74b166a3cbc775744039c73f2612435dd3f30428cedfa72216c534",
+      "sensor_digest": "abf941eb8d712be71c1b0c00af182defbd06ae973341c046225c960192358be5",
+      "sensor_readings": {
+        "current_A": 218.83802812308596,
+        "force_N": 13.296070770493188,
+        "ir_peak_C": 1536,
+        "voltage_V": 22.906791128819645
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.7899604,
+      "tpm_quote": "bytes:d4d72630f9cbac8e935f9a12640ff414",
+      "world_model_infer": []
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "44337ca86c8659fb2c886d98323e3b7f5ac7d087cb2605948467d72eeb3de915a791dfe4b48d878f1d90e2efcf778432e5b9437a9244477d1de9a3eb9964b103",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference": {
+        "inference_at": 1777562263.789749,
+        "input_scene_hash": "0fb58612c50960cd2e9dbc07e407ae88544a858402cb124a273069e1ebfedf60",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 2,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "566cdd6735802c88bcc643620f165656365bcf1323f78b1b1068642473f70fcf",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "17dff4c7133c06d6c893602989355d5b1c3f68683bac07f72f5355004d8fcacb565e0c69b696b50ba32af0ecb91bc8532ed2b94fde9903e461c85b63ff960008",
+      "invocation": {
+        "invocation_at": 1777562263.797014,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "L-pillar-inner-right",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "eb9a7b11691f9975939c87f9b7204ef5d001b0a72a41eb70ddf58e2ed50ddcbd",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "8d5ea94a561fed0963e3cf603a94411b537cf1afe1859644d029b1b20de86c470f3bf6550e3f686b015a1490bca276012afe6e2886bf0633c08dbd1a90d47702",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "L-pillar-inner-right",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "f15eb2b9383d2453213fac919c1fcc03507f406595f3cfd03c6d485b889cc3db",
+      "sensor_digest": "c6a17b1ccebf40bc94f3427440ffbebce5e6fe97f9fc5acc33a6ad91b554ac3e",
+      "sensor_readings": {
+        "current_A": 218.68455459279238,
+        "force_N": 12.758910883515295,
+        "ir_peak_C": 1489,
+        "voltage_V": 23.09165071918014
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.7971566,
+      "tpm_quote": "bytes:b29f42856f8cf935440edba7c7f06083",
+      "world_model_infer": []
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "b325e5fb55eff0f10bdf63ab41e756425c5b966029515f2af54fdbb4152355df3e7c78e8b0b7d872d15024985ecfcefca0139c6b5c0838b52c61fb8063b8440e",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference": {
+        "inference_at": 1777562263.789749,
+        "input_scene_hash": "0fb58612c50960cd2e9dbc07e407ae88544a858402cb124a273069e1ebfedf60",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 2,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "566cdd6735802c88bcc643620f165656365bcf1323f78b1b1068642473f70fcf",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "17dff4c7133c06d6c893602989355d5b1c3f68683bac07f72f5355004d8fcacb565e0c69b696b50ba32af0ecb91bc8532ed2b94fde9903e461c85b63ff960008",
+      "invocation": {
+        "invocation_at": 1777562263.8047376,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "B-pillar-cross-front",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "eb9a7b11691f9975939c87f9b7204ef5d001b0a72a41eb70ddf58e2ed50ddcbd",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "37497a14c0b4b027586c7ebab59281aaabba2766bf8333690b6666a764ac0da8c4f2bf10edcb3869d6c2e7342f4734b39de1e65d1d4de073e29411a303ffbc0b",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "B-pillar-cross-front",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "f0781b9d795ee11e1ed79f5d72e927b48799e23ed7317c1aec739bbe6b409d42",
+      "sensor_digest": "572a62aa28a69c0eeb557702a0212811b1717fb0f23a05eb670b61c820ff03fc",
+      "sensor_readings": {
+        "current_A": 220.55999903941637,
+        "force_N": 13.685703840379619,
+        "ir_peak_C": 1521,
+        "voltage_V": 23.02277989750986
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.8048484,
+      "tpm_quote": "bytes:2d29f74a8101b775572f18363a74b8ee",
+      "world_model_infer": []
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "6b23526afb3c7157db868fce2c34c2a9f8bc94dbd820f6b21c26e28352c833f06145441a39ac7de9c36a7c4d78adbce7f332440a8824716c241050d252b30c0e",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44adff",
+      "inference": {
+        "inference_at": 1777562263.789749,
+        "input_scene_hash": "0fb58612c50960cd2e9dbc07e407ae88544a858402cb124a273069e1ebfedf60",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 2,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "566cdd6735802c88bcc643620f165656365bcf1323f78b1b1068642473f70fcf",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "17dff4c7133c06d6c893602989355d5b1c3f68683bac07f72f5355004d8fcacb565e0c69b696b50ba32af0ecb91bc8532ed2b94fde9903e461c85b63ff960008",
+      "invocation": {
+        "invocation_at": 1777562263.8119738,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "B-pillar-cross-rear",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "eb9a7b11691f9975939c87f9b7204ef5d001b0a72a41eb70ddf58e2ed50ddcbd",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "dc8b074d54f1b90f422eb058c199414c2020ea0ee22ede5e62ac1f26fc14be61f430e55b03fe7f9306254057f16e7311cda59787dca5ee4af77cb11a56e4020c",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "B-pillar-cross-rear",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "1ff54104652365794cc045ddd69d2210ddedff963fc6f685ce7d93e96dee946b",
+      "sensor_digest": "d1d9186480b6021546e4c024640b1006084822e2b27760594845849909385f79",
+      "sensor_readings": {
+        "current_A": 218.9161922878564,
+        "force_N": 12.535481751951405,
+        "ir_peak_C": 1498,
+        "voltage_V": 22.812840097561615
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.812115,
+      "tpm_quote": "bytes:498cc234002fe26eae3d0ad36ace7dba",
+      "world_model_infer": []
+    },
+    {
+      "aarm_ref": null,
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature": "cfc28065635f93e164c44f713a27349646fbd6c890a576fee6c33a6d022ec92328e2bbc29225234cf0ff3c65e714bc94d9e993c1824244bf87a1a8fb1285e101",
+      "delegation": {
+        "authorized_model_pks": [
+          "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d"
+        ],
+        "budget_actions": 25,
+        "expiry_unix": 1777565863.7101016,
+        "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+        "issued_at": 1777562263.710107,
+        "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+        "scope_skills": [
+          "weld_seam",
+          "place_panel"
+        ],
+        "territory_cells": [
+          "891f8d44c47ffff",
+          "891f8d44c43ffff",
+          "891f8d44c4fffff",
+          "891f8d44c7bffff"
+        ],
+        "world_model_train": {
+          "license": "NVIDIA Open Model License v1.0",
+          "model": "cosmos-predict-2.5-2b",
+          "provider": "nvidia",
+          "version": "2.5.0",
+          "weights_hash": "blake3:4bd8fb00975595acd57068b97d8d9c45f58c0aec8528611857ffa3f0e7e223fa"
+        }
+      },
+      "delegation_signature": "df470206606e49cf5c133248be36bb613a85b8166a9badd16c2d1c1c8ded832ff3a878280b09fe1f20def7df4d32c734b84977246fe309c957c430886703fe07",
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "gep_genesis": "26acb5d998b63d54f2ed92851c5c565db9fe0930fc06b06091d05c0ce4ff8289",
+      "h3_cell": "8c1f8d44c44adff",
+      "inference": {
+        "inference_at": 1777562263.789749,
+        "input_scene_hash": "0fb58612c50960cd2e9dbc07e407ae88544a858402cb124a273069e1ebfedf60",
+        "model_pk": "111045399c24593d5a7f0928dee951b450b76bccf56412997890c84ebcff190d",
+        "parent_delegation": "2ebdd705a76dddfd32d37051592ece3d0b7ba5dcc2af693504d7c2ead804d910",
+        "plan_output": {
+          "primitives": [
+            {
+              "seam_id": "L-pillar-inner-left",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "L-pillar-inner-right",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-front",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "B-pillar-cross-rear",
+              "skill_id": "weld_seam"
+            },
+            {
+              "seam_id": "rear-quarter-upper",
+              "skill_id": "weld_seam"
+            }
+          ],
+          "unit_index": 2,
+          "unit_sku": "1842"
+        },
+        "prompt_hash": "566cdd6735802c88bcc643620f165656365bcf1323f78b1b1068642473f70fcf",
+        "reasoning_trace": "Identified unit SKU 1842 in fixture. Planning 5 seams. Force-sensing engaged. No collisions in predicted trajectory."
+      },
+      "inference_signature": "17dff4c7133c06d6c893602989355d5b1c3f68683bac07f72f5355004d8fcacb565e0c69b696b50ba32af0ecb91bc8532ed2b94fde9903e461c85b63ff960008",
+      "invocation": {
+        "invocation_at": 1777562263.8194084,
+        "parameters": {
+          "current_A": 220,
+          "seam_id": "rear-quarter-upper",
+          "speed_mm_s": 8.5,
+          "voltage_V": 23
+        },
+        "parent_inference": "eb9a7b11691f9975939c87f9b7204ef5d001b0a72a41eb70ddf58e2ed50ddcbd",
+        "preconditions_ok": true,
+        "runtime_pk": "eab27eb1cfb183635ea8d4e0d466fa22065fe77e5b560a50586b79ca80f2c53c",
+        "scope_check_ok": true,
+        "skill_id": "weld_seam"
+      },
+      "invocation_signature": "3d9304997accf5bd77dbea28033e4c67e351e3434d7f369fac164f6359135a65881b0c65b0689ce2d0efbed6470169ab95e61d1af6e377b67cee2b48e2157c0c",
+      "motion_primitive": {
+        "duration_s": 2.4,
+        "seam_id": "rear-quarter-upper",
+        "type": "weld_seam"
+      },
+      "parent_invocation": "d1dbbdb04031b9ccc99300d66f7852208d220fd844ec548a3bd614841dd5f342",
+      "sensor_digest": "3f8a088a1ab43ae60c5de7071134a12e73ee2a47fe5f12c1c085f0052d83f8b1",
+      "sensor_readings": {
+        "current_A": 221.7716388573402,
+        "force_N": 13.31087733058976,
+        "ir_peak_C": 1498,
+        "voltage_V": 23.15054705058907
+      },
+      "spiffe_id": "spiffe://comau-style-cell/cell-7/arm-1",
+      "timestamp": 1777562263.8195336,
+      "tpm_quote": "bytes:6fb7648680fb60c15c3e3cf30f44d81a",
+      "world_model_infer": [
+        {
+          "attestation": "signed-by-runtime",
+          "model": "cosmos-reason-2",
+          "output_hash": "blake3:d46b91709248c603b41bab35375d78b8f21a88567ab5177e9fa3eba5d49c8c5a",
+          "output_uri": "r2://obj/cosmos-out/2-rear-quarter-upper.json",
+          "prompt_hash": "93e5f717b20877c50cc33fb2ed7b5e2059915ce470e58e046fd2154ed3a20c56",
+          "provider": "nvidia",
+          "version": "2.0.1"
+        }
+      ]
+    }
+  ],
+  "epochs": [
+    {
+      "breadcrumb_ids": [
+        "6f94d938d3879349c5aee8308899febe26ba00fbfda14b666f3fff5ab062ac7f",
+        "5f413d73ebe1ead15a179eeec3c30815c440e766affa64957f12b4bd9d4e5bc6",
+        "e112ae3caee6882a47aa53d79c57a298db21c13c5fedc3d2da00287029c40428",
+        "489e32d4a5e127c0fea21a3e4acde277bcbf14d998aad1a830c8df8119d027bb",
+        "f9e7efe112e6382665dcc2dffe578f0a8da52621ef2dfc2f32d549c4d2869854",
+        "76917c8876b3cf713e73849f2e841c87e4ccf6beeb1602c8af487a81b4ece79c",
+        "1141c9ec7a9334ef1bc68a6753830bf23626a8dce13bdb31d81c83e74c6a1fd1",
+        "64fc99ece8d3aba47d9bb2ff825d971ed4e4987baf1b8c06e487ef4c8f39dd18",
+        "1eb9514be20a7c64c177c90c790a28e0b85d19c6d6cec09265602a7d28397f18",
+        "6e96a0bd91d94ebb63ead3c8bf945f87c4b5cab592502a9a3efbc6fe73a05da2",
+        "89817be8752ca9727ad2bac7b8fde3f0e130e68ff87fd25c0ced89f6a5c6a479",
+        "97c87a2abfb10cb66bb1eca96d66744284d6eec95fab8cb91cc316487495c81d",
+        "176afd35c7362ca77115ddbee1f18444af98b3e33381bb2557be19d7cef3b415",
+        "fa0f4385995d326fe60b1449f42176b67e2accc90dfa53ceb8ccd32436d2c749",
+        "b85dd26c5c791c73b1b51201683aec0c1f25897f1d98a6b6805f172d6c29cba1"
+      ],
+      "epoch_id": "bmw-cell-7-shift-1-0001",
+      "merkle_root": "4b14752c7c2be3c4729393c986803241251dc26c59f2ca3338f3c63aafdf1565",
+      "sealer_pk": "80b99d68400eb75badf644058f90c33e376fe28b83f3a221039058aa2c89b1fa",
+      "sealer_signature": "44517fb2da4bd6505461a839372d52c3c2048351d624c937a1261ecb40490264d3be1bcb3befc43ad0b0fa2e6ee23e36677c5449f4be8252e13b87230b8a5c04",
+      "t_close": 1777562263.82751,
+      "t_open": 1777562263.7105067
+    }
+  ],
+  "results": [
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "6f94d938d3879349c5aee8308899febe26ba00fbfda14b666f3fff5ab062ac7f",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "5f413d73ebe1ead15a179eeec3c30815c440e766affa64957f12b4bd9d4e5bc6",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "e112ae3caee6882a47aa53d79c57a298db21c13c5fedc3d2da00287029c40428",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44adff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "489e32d4a5e127c0fea21a3e4acde277bcbf14d998aad1a830c8df8119d027bb",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44adff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "f9e7efe112e6382665dcc2dffe578f0a8da52621ef2dfc2f32d549c4d2869854",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44adff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "76917c8876b3cf713e73849f2e841c87e4ccf6beeb1602c8af487a81b4ece79c",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "1141c9ec7a9334ef1bc68a6753830bf23626a8dce13bdb31d81c83e74c6a1fd1",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "64fc99ece8d3aba47d9bb2ff825d971ed4e4987baf1b8c06e487ef4c8f39dd18",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "1eb9514be20a7c64c177c90c790a28e0b85d19c6d6cec09265602a7d28397f18",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44adff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "6e96a0bd91d94ebb63ead3c8bf945f87c4b5cab592502a9a3efbc6fe73a05da2",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44adff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "89817be8752ca9727ad2bac7b8fde3f0e130e68ff87fd25c0ced89f6a5c6a479",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "97c87a2abfb10cb66bb1eca96d66744284d6eec95fab8cb91cc316487495c81d",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "176afd35c7362ca77115ddbee1f18444af98b3e33381bb2557be19d7cef3b415",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44a5ff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "fa0f4385995d326fe60b1449f42176b67e2accc90dfa53ceb8ccd32436d2c749",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44adff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    },
+    {
+      "actuator_pk": "fc17f9295905e28b9acc367f15cc9c458885c8fb7d4df7cd73f81307d83fa87e",
+      "actuator_signature_ok": true,
+      "all_ok": true,
+      "breadcrumb_id": "b85dd26c5c791c73b1b51201683aec0c1f25897f1d98a6b6805f172d6c29cba1",
+      "chain_continuity_ok": true,
+      "delegation_signature_ok": true,
+      "epoch_seal_signature_ok": true,
+      "expiry_ok": true,
+      "h3_cell": "8c1f8d44c44adff",
+      "inference_signature_ok": true,
+      "invocation_signature_ok": true,
+      "merkle_inclusion_ok": true,
+      "model_authorized_ok": true,
+      "notes": [],
+      "operator_pk": "cde98b30a2b0f1aeec247cb2a52e4fd783a36668e41039d9bf0d73584f240c0c",
+      "scope_ok": true,
+      "territory_ok": true
+    }
+  ]
+}
