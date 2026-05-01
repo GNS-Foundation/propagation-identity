@@ -144,7 +144,7 @@ Each adapter in the LAB is designed to be replaced by its production counterpart
 
 | LAB component | Production replacement |
 |---------------|------------------------|
-| `LocalMobyDB` | `RemoteMobyDB` against `mobydb-production.up.railway.app` |
+| `LocalMobyDB` (SQLite) | `RemoteMobyDB` writes to production MobyDB at `mobydb-production.up.railway.app`, persisted in **RocksDB** on a Railway volume |
 | `Comau-style demo` | `RealFlowstateAdapter` wrapping an actual Flowstate skill |
 | `Cosmos Reason 2 stub` | Real Cosmos Reason 2 inference call against NVIDIA NGC API |
 | `software actuator key` | TPM 2.0-rooted hardware attestation key |
